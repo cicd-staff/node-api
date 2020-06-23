@@ -1,26 +1,23 @@
-# Logs
-logs
-*.log
-.DS_Store
+# dependencies
+/node_modules
 
-npm-debug.log*
+# IDE
+/.idea
+/.awcache
+/.vscode
 
-# Dependency directory
-node_modules
+# misc
+npm-debug.log
 
-# Optional npm cache directory
-.npm
+# example
+/quick-start
 
-#IDEs
-.idea
+# tests
+/test
+/coverage
+/.nyc_output
 
-#config files
-#ormconfig.json
-src/config.ts
+# dist
+/dist
 
-# code testing coverage
-coverage
-
-
-dist/*
 .history
