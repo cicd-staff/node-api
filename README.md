@@ -1,3 +1,7 @@
+# Node API
+
+Node API, membuat API menggunakan NodeJS dengan framework NestJS
+
 ## Description
 
 [Node API](https://github.com/dev1-hci/node-api).
