@@ -1,6 +1,5 @@
 FROM node:12.18.1
-RUN apt-get update && apt-get upgrade -y \
-    && apt-get clean
+RUN apt-get update -y && apt-get clean
 RUN mkdir /usr/src/app
 RUN chmod 777 /usr/src/app
 WORKDIR /usr/src/app
