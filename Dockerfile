@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:12.18.1
 RUN apt-get update && apt-get upgrade -y \
     && apt-get clean
 RUN mkdir /usr/src/app
