@@ -2,7 +2,7 @@ version: '2'
 services:
   node:
     image: mafia25/workshop-api:$BUILD_NUMBER
-    container_name: ws-api
+    container_name: workshop-api
     restart: always
     ports:
       - '3000:3000'
